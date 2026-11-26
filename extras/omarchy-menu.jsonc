@@ -1,0 +1,20 @@
+{
+  // Optional Omarchy menu entries. Merge these keys into
+  // ~/.config/omarchy/extensions/omarchy-menu.jsonc.
+  "ink-signal": {
+    "icon": "󰏘", "label": "Ink Signal", "aliases": ["ink-signal"],
+    "description": "Oriental dither studies for Omarchy"
+  },
+  "ink-signal.light": {
+    "icon": "󰏘", "label": "Light",
+    "action": "omarchy theme set 'Ink Signal'"
+  },
+  "ink-signal.night": {
+    "icon": "󰏘", "label": "Night",
+    "action": "omarchy theme set 'Ink Signal Night'"
+  },
+  "ink-signal.next": {
+    "icon": "󰸉", "label": "Next wallpaper",
+    "action": "omarchy theme bg next"
+  }
+}

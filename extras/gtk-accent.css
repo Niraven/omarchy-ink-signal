@@ -1,0 +1,9 @@
+/* Optional GTK accent for Ink Signal.
+ * Copy to ~/.config/gtk-4.0/gtk.css (and/or gtk-3.0/gtk.css) after backing up.
+ * This changes only the accent/selection colors, not the widget theme.
+ */
+@define-color accent_color #4169e1;
+@define-color accent_bg_color #4169e1;
+@define-color accent_fg_color #ffffff;
+@define-color theme_selected_bg_color #4169e1;
+@define-color theme_selected_fg_color #ffffff;

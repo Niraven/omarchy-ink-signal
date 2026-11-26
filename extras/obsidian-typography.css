@@ -1,0 +1,34 @@
+/* Ink Signal — typography
+ * Display: Noto Serif · UI/body: Noto Sans · Code: JetBrainsMono Nerd Font
+ * Loaded as an Obsidian CSS snippet after the Omarchy theme.
+ */
+body {
+  --font-text-theme: "Noto Sans", "Adwaita Sans", "Liberation Sans", sans-serif;
+  --font-interface-theme: "Noto Sans", "Adwaita Sans", "Liberation Sans", sans-serif;
+  --font-monospace-theme: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace;
+  --line-height-normal: 1.65;
+}
+
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3 {
+  font-family: "Noto Serif", "Liberation Serif", Georgia, serif !important;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.markdown-rendered blockquote,
+.markdown-preview-view blockquote {
+  font-family: "Noto Serif", "Liberation Serif", Georgia, serif;
+  font-style: italic;
+}
+
+.markdown-rendered code,
+.markdown-rendered pre,
+.markdown-preview-view code,
+.markdown-preview-view pre {
+  font-family: "JetBrainsMono Nerd Font", "JetBrains Mono", monospace !important;
+}
