@@ -27,6 +27,14 @@ cd omarchy-ink-signal
 
 That installs both themes, applies **Ink Signal**, and sets **Poppy** as the background. Nothing is installed system-wide and no `sudo` is used.
 
+The repository root is also a directly installable Omarchy light theme:
+
+```bash
+omarchy theme install https://github.com/Niraven/omarchy-ink-signal
+```
+
+Use the installer if you want both variants, the night wallpapers, typography, and extras.
+
 ### Options
 
 | Flag | What it does |

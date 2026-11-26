@@ -7,6 +7,12 @@ for f in install.sh uninstall.sh extras/*.sh scripts/check.sh; do
 done
 PYTHONDONTWRITEBYTECODE=1 python3 -m py_compile tools/dither.py
 
+test -s colors.toml
+test -s preview.png
+test -s icons.theme
+root_count=$(find backgrounds -maxdepth 1 -type f -name '*.png' | wc -l)
+(( root_count >= 3 )) || { echo "root theme has only $root_count wallpapers" >&2; exit 1; }
+
 for theme in ink-signal ink-signal-night; do
   test -s "themes/$theme/colors.toml"
   test -s "themes/$theme/preview.jpg"
